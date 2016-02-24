@@ -71,7 +71,7 @@ unitVisiable | is unit visiable | boolean | true
 local | language to use | String | 'local'  enmu('en','zh')
 
 
-License
+## License
 
 m-date-picker is released under the MIT license.
 
