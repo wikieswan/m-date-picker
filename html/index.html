@@ -23,13 +23,13 @@
 <script type="text/javascript" src="../lib/zepto-touch-fx-1.1.4.js"></script>
 <script type="text/javascript" src="../js/m-date-picker.js"></script>
 <script type="text/javascript">
-	var a = $.mdatepicker({
+	var mdp = $.mdatepicker({
 			mode: 'date',    // date time datetime datemonth
-			defaultDate: '2014/2/1',
+			defaultDate: '2016/2/1',
 			okText: 'Ok',
 			cancelText: 'Cancel',
 			onDateChange: function(date){
-				console.log(date)
+				$('#selTime').html(date)
 			},
 			onCancel: function(){
 				
@@ -38,7 +38,7 @@
 			local: 'en'
 		})
 	$('.add').click(function(){
-		a.show()
+		mdp.show()
 	})
 </script>
 

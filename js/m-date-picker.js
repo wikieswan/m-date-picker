@@ -184,7 +184,6 @@
 			y0 = y0 + sMinus;
 			touchEndSlideCycle('.md-min',y0,60);
 		}
-
 	})
 	
 	function hasClass(target,cssClass){
@@ -468,13 +467,16 @@
 		else{
 
 		}
-		
+		this.bodyTouchmove = $('body').attr('ontouchmove')
+		console.log(this.bodyTouchmove)
+		$('body').attr('ontouchmove','event.preventDefault()')
 	}
 	mdatepicker.prototype.hide = function(){
 		var self = this;
 		setTimeout(function(){
 			$(self.obj).remove()
 		},300)
+		$('body').attr('ontouchmove',this.bodyTouchmove)
 	}
 	mdatepicker.prototype.val = function(){
 		var ops = this.ops,
