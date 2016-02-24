@@ -16,6 +16,10 @@ date picker for mobile using javascript and acting like native date picker
 2 online demo
 [http://wikieswan.github.io/m-date-picker/html/index.html](http://wikieswan.github.io/m-date-picker/html/index.html)
 
+open with the QR code image
+
+<img src="http://wikieswan.github.io/img/do-not-delete/m-date-picker-url.jpg" width="200px">
+
 ## usage
 
 ### 1 import m-date-picker css and js lib
