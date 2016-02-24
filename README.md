@@ -3,7 +3,7 @@ date picker for mobile using javascript and acting like native date picker
 
 ## what does it look like
 
-<img src="http://wikieswan.github.io/img/do-not-delete/m-date-picker.jpg" width="400px">
+<img src="http://wikieswan.github.io/img/do-not-delete/m-date-picker.jpg?v=1" width="400px">
 
 ## demo
 
@@ -67,5 +67,7 @@ unitVisiable | is unit visiable | boolean | true
 local | language to use | String | 'local'  enmu('en','zh')
 
 
+License
 
+m-date-picker is released under the MIT license.
 
