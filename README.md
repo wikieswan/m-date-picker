@@ -30,7 +30,7 @@ tip: m-date-picker.js depends on zepeto.js ,so you should import zepeto.js befor
 			onCancel: function(){
 				
 			},
-			unitVisable: true,
+			unitVisiable: true,
 			local: 'en'
 		})
 	mdp.show();
@@ -42,8 +42,14 @@ tip: m-date-picker.js depends on zepeto.js ,so you should import zepeto.js befor
 
 name | description | type | default
 ---------------|---------------|---------------|---------------
-foo 		   | foo  | foo| foo
-
+mode | date picker mode | String | 'date' enum('date', 'time', 'datetime','datemonth')
+defaultDate | default selected date | String | now
+okText | ok button text | String | 'Ok'
+cancelText | cancel button text | String | 'Cancel'
+onDateChange | exec on ok | Function(date: String) | ''
+onCancel | exec on dismiss | function | ''
+unitVisiable | is unit visiable | boolean | true
+local | language to use | String | 'local'  enmu('en','zh')
 
 
 
